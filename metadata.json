@@ -1,0 +1,8 @@
+{
+  "name": "H2gO | Clean Water Challenge",
+  "description": "Interactive clean water challenge game inspired by charity: water, where players roleplay as water planners choosing solutions for global communities.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
