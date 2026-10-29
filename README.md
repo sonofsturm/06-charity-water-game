@@ -50,3 +50,4 @@ An interactive educational clean water planner game built with React, TypeScript
 - **Tooling**: Vite
 - **Audio**: Web Audio API (native, zero assets needed)
 - **Styling**: Responsive custom CSS preserving the charity: water brand aesthetic
+- Testing Deployment
