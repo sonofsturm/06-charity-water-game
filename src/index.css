@@ -502,7 +502,7 @@ h1 span { color: var(--blue); }
 
   /* Card fills the leftover space with scroll fallback if content ever exceeds */
   .scenario-card {
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     min-height: 0;
     display: flex;
     flex-direction: column;
