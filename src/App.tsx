@@ -465,7 +465,7 @@ export const App: React.FC = () => {
       tokens.push(
         <img
           key={i}
-          src={import.meta.env.BASE_URL + "img/water-can-transparent.png"}
+          src="/06-charity-water-game/img/water-can-transparent.png"
           alt={isActive ? 'Active Jerry Can' : 'Depleted Jerry Can'}
           className={`jerry-can-token ${isActive ? 'active' : 'lost'}`}
           title={isActive ? 'Water reserve intact' : 'Water reserve depleted'}
@@ -523,7 +523,7 @@ export const App: React.FC = () => {
       {screen === 'start' && (
         <section id="start-screen" className="screen start-screen">
           <div className="start-copy">
-            <img className="logo" src={import.meta.env.BASE_URL + "img/cw_logo_horizontal.png"} alt="charity: water" />
+            <img className="logo" src="/06-charity-water-game/img/cw_logo_horizontal.png" alt="charity: water" />
             <p className="eyebrow">H2gO: CLEAN WATER CHALLENGE</p>
             <h1>
               Small choices.<br />
@@ -588,7 +588,7 @@ export const App: React.FC = () => {
             <div className="sun" />
             <div className="hill hill-back" />
             <div className="hill hill-front" />
-            <img src={import.meta.env.BASE_URL + "img/water-can-transparent.png"} alt="" />
+            <img src="/06-charity-water-game/img/water-can-transparent.png" alt="" />
           </div>
         </section>
       )}
@@ -597,7 +597,7 @@ export const App: React.FC = () => {
       {screen === 'how-to' && (
         <section id="how-to-screen" className="screen how-to-screen">
           <div className="how-to-panel">
-            <img className="logo" src={import.meta.env.BASE_URL + "img/cw_logo_horizontal.png"} alt="charity: water" />
+            <img className="logo" src="/06-charity-water-game/img/cw_logo_horizontal.png" alt="charity: water" />
             <p className="eyebrow">H2gO: CLEAN WATER CHALLENGE</p>
             <h1>
               How to <span>play.</span>
@@ -691,7 +691,7 @@ export const App: React.FC = () => {
         <section id="links-screen" className="screen links-screen">
           <div className="links-panel">
             <div>
-              <img className="logo" src={import.meta.env.BASE_URL + "img/cw_logo_horizontal.png"} alt="charity: water" />
+              <img className="logo" src="/06-charity-water-game/img/cw_logo_horizontal.png" alt="charity: water" />
               <p className="eyebrow">REAL-WORLD IMPACT</p>
               <h1>Turn choices into <span>clean water.</span></h1>
               <div className="model-badge">
@@ -775,7 +775,7 @@ export const App: React.FC = () => {
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
               <a className="brand-mark" href="https://www.charitywater.org/" target="_blank" rel="noreferrer">
                 <img
-                  src={import.meta.env.BASE_URL + "img/cw_logo.png"}
+                  src="/06-charity-water-game/img/cw_logo.png"
                   alt="charity: water"
                 />
               </a>
@@ -1037,7 +1037,7 @@ export const App: React.FC = () => {
       {/* End screen */}
       {screen === 'end' && (
         <section id="end-screen" className="screen end-screen">
-          <img className="logo" src={import.meta.env.BASE_URL + "img/cw_logo_horizontal.png"} alt="charity: water" />
+          <img className="logo" src="/06-charity-water-game/img/cw_logo_horizontal.png" alt="charity: water" />
           <div className="end-icon" aria-hidden="true">
             {endState.passed ? '✦' : '⚠️'}
           </div>
